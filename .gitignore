@@ -1,0 +1,10 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+.DS_Store
+# data are not redistributed; see docs/DATA.md
+data/
+*.h5

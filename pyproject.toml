@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallpressure"
+version = "1.0.0"
+description = "Two-component inner-outer scaling models for the wall-pressure spectrum at high Reynolds number"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jonathan M.O. Massey" }]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+test = ["pytest"]
+fit = ["scipy", "h5py"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

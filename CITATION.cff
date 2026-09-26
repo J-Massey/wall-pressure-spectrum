@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper."
+title: "wallpressure: two-component inner-outer scaling models for the wall-pressure spectrum"
+type: software
+authors:
+  - family-names: Massey
+    given-names: Jonathan M.O.
+preferred-citation:
+  type: article
+  title: "Two-component inner–outer scaling model for the wall-pressure spectrum at high Reynolds number"
+  authors:
+    - family-names: Massey
+      given-names: Jonathan M.O.
+    - family-names: Smits
+      given-names: Alexander J.
+    - family-names: McKeon
+      given-names: Beverley J.
+  journal: "Journal of Fluid Mechanics"
+  volume: 1034
+  issue: "A60"
+  year: 2026
+  doi: 10.1017/jfm.2026.11550
